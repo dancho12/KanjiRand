@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_words"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="kanji menu"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/bt_add_wd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAdd"
+        android:text="Add kanji"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/bt_rand"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickRand"
+        android:text="Rand Kanji"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+</LinearLayout>
